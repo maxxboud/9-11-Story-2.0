@@ -1,0 +1,55 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F5F5F5
+;
+    margin: 0;
+    padding: 2rem;
+    color: #333;
+    max-width: 800px; /* Width for single column */
+    margin: auto;
+}h1 {
+    font-size: 2.5rem;
+    /* border-bottom: 4px double #000;  This line is commented out to remove the border */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}.byline {
+    text-align: center;
+    margin-bottom: 30px;
+}.regulartext {
+    text-align: justify;
+    margin-bottom: 30px;
+}.image-container, .group-container, img {
+    text-align: center;
+    display: block;
+    margin: 0 auto; /* Centers images */
+    max-width: 100%; /* Ensures images are not larger than their containers */
+    margin-bottom: 20px;
+}.icon-container {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: auto; /* Added space between icon containers */
+}.icon-container p {
+    text-align: center;
+    margin-top: 10px; /* Provides a little space between the image and its caption */
+}
+/* ... Your previous styles ... */.side-by-side-images {
+    display: flex;
+    justify-content: space-between; /* Distributes the space equally between the two images */
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px; /* Assuming this is the width of your single column */
+}.side-by-side-images figcaption {
+    margin-top: 10px;
+}
+.side-by-side-images figure {
+    margin: 0;
+    width: 45%; /* Reducing this to create more space */
+    text-align: center;
+}.side-by-side-images img {
+    max-width: 100%; /* Make sure the images take up the full width of the figure */
+    height: auto; /* Ensuring the aspect ratio is maintained */
+}figcaption {
+    font-style: italic;
+}
